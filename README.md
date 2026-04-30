@@ -46,7 +46,9 @@ Component Reusability
 Modular composables such as DashboardCard, SectionTitle, and NavItem improve maintainability and readability.
 Clean Code Practices
 Follows idiomatic Kotlin and Jetpack Compose standards with clear separation of concerns and structured state handling.
+
 Project Structure
+
 MainActivity.kt
 │
 ├── InsightsScreen (State Layer)
@@ -66,3 +68,4 @@ MainActivity.kt
 │
 └── Graphics Layer
     └── Canvas-based drawing logic for all charts
+
